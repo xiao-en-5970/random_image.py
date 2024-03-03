@@ -42,6 +42,9 @@ for i in range(m, m + cnt):
         continue
     # print('状态码：{rqs.status_code}\n')
     # print(f"请求头:{rqs.headers}\n")
+    if(f"没有与{class_path}相关的图片" in rqs.text):
+        print(f"没有与{class_path}相关的图片，请更换关键词重试")
+        break
     with open(f"./{r18_path}image/{class_path}/{name}", "wb") as file:
         file.write(rqs.content)
     print(f"已下载第{i}/{m + cnt}个:{name}\n")
