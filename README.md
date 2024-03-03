@@ -18,5 +18,9 @@
 ## 6.其实是调用下方链接的结果（
 https://image.anosu.top/pixiv/direct?
 
+## 7. v1.1修复找不到关键词的报错，改为提示更换关键词
+![image](https://github.com/xiao-en-5970/random_image.py/assets/132341094/2b2da2d0-1593-4720-92a8-0e578f3c0592)
+
+
 
 
